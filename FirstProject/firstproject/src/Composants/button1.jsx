@@ -1,7 +1,7 @@
 
-import './App.css';
+import '../App.css';
 
-function Button(props){
+function Button1(props){
     return (
         <button>
             <a  style={{
@@ -12,4 +12,4 @@ function Button(props){
         </button>
     )}
 
-export default Button;
+export default Button1;
