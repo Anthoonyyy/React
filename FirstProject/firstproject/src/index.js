@@ -15,6 +15,7 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Error404 from "./Pages/Error404";
+import User from "./Composants/user";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -33,6 +34,7 @@ root.render(
                   <Route path="About" element={<About />}/>
                   <Route path="Contact" element={<Contact />}/>
                   <Route path="*" element={<Error404 />}/>
+                  <Route path="/user/:username" element={<User/>}/>
               </Route>
           </Routes>
       </BrowserRouter>
