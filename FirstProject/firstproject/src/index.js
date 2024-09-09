@@ -15,7 +15,7 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Error404 from "./Pages/Error404";
-import ImageHome from "./Composants/ImageHome";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -36,7 +36,7 @@ root.render(
               </Route>
           </Routes>
       </BrowserRouter>
-<ImageHome />
+
   </React.StrictMode>
 );
 

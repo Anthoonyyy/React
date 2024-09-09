@@ -1,5 +1,4 @@
 import '../App.css';
-import ImageHome from "../Composants/ImageHome";
 
 function Home(){
     return (
